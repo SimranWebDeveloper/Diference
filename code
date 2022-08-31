@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main ()
+{int n,x,y,z,hasil=1;
+cin>>n;
+
+x=abs(n/100);
+
+y=abs(n/10%10);
+
+z=abs(n%10);
+cout<<(x*y*z)-(x+y+z);
+system ("pause");
+return 0;}
